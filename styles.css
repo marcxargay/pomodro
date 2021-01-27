@@ -1,0 +1,43 @@
+body {
+  background-color: antiquewhite;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.clock {
+  display: flex;
+}
+.minutes:after {
+  content: ':';
+}
+.clock-number {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 8.5rem;
+}
+.button {
+  width: 200px;
+  height: 70px;
+  font-size: 3rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  cursor: pointer;
+}
+.button-start {
+  background-color: brown;
+  border: 1px solid black;
+}
+.button-pause {
+  background-color: brown;
+  border: 1px solid black;
+  display: none;
+}
+.button-reset {
+  background-color: grey;
+  border: 1px solid #3f3f3f;
+}
+.button-submit {
+  width: 40px;
+  height: 22px;
+  font-size: 0.78rem;
+}
+#time {
+  width: 40px;
+}
